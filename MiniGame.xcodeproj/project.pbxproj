@@ -13,6 +13,8 @@
 		07115F0B2A73EBAA00F9C768 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07115F092A73EBAA00F9C768 /* Main.storyboard */; };
 		07115F0D2A73EBAC00F9C768 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07115F0C2A73EBAC00F9C768 /* Assets.xcassets */; };
 		07115F102A73EBAC00F9C768 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07115F0E2A73EBAC00F9C768 /* LaunchScreen.storyboard */; };
+		07115F182A73ED5300F9C768 /* ForecastScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07115F172A73ED5300F9C768 /* ForecastScreenVC.swift */; };
+		07115F1A2A73ED7900F9C768 /* ResultScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07115F192A73ED7900F9C768 /* ResultScreenVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		07115F0C2A73EBAC00F9C768 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07115F0F2A73EBAC00F9C768 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07115F112A73EBAC00F9C768 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07115F172A73ED5300F9C768 /* ForecastScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastScreenVC.swift; sourceTree = "<group>"; };
+		07115F192A73ED7900F9C768 /* ResultScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultScreenVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				07115F0C2A73EBAC00F9C768 /* Assets.xcassets */,
 				07115F0E2A73EBAC00F9C768 /* LaunchScreen.storyboard */,
 				07115F112A73EBAC00F9C768 /* Info.plist */,
+				07115F172A73ED5300F9C768 /* ForecastScreenVC.swift */,
+				07115F192A73ED7900F9C768 /* ResultScreenVC.swift */,
 			);
 			path = MiniGame;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07115F1A2A73ED7900F9C768 /* ResultScreenVC.swift in Sources */,
 				07115F082A73EBAA00F9C768 /* ViewController.swift in Sources */,
+				07115F182A73ED5300F9C768 /* ForecastScreenVC.swift in Sources */,
 				07115F042A73EBAA00F9C768 /* AppDelegate.swift in Sources */,
 				07115F062A73EBAA00F9C768 /* SceneDelegate.swift in Sources */,
 			);
